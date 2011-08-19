@@ -10,7 +10,7 @@
 
 (function() {
 	// Load plugin specific language pack
-	tinymce.PluginManager.requireLangPack('example');
+	tinymce.PluginManager.requireLangPack('luminis');
 
 	tinymce.create('tinymce.plugins.ExamplePlugin', {
 		/**
