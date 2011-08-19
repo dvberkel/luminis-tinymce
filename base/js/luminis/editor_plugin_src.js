@@ -12,7 +12,7 @@
 	// Load plugin specific language pack
 	tinymce.PluginManager.requireLangPack('luminis');
 
-	tinymce.create('tinymce.plugins.ExamplePlugin', {
+	tinymce.create('tinymce.plugins.LuminisPlugin', {
 		/**
 		 * Initializes the plugin, this will be executed after the plugin has been created.
 		 * This call is done before the editor instance has finished it's initialization so use the onInit event
@@ -80,5 +80,5 @@
 	});
 
 	// Register plugin
-	tinymce.PluginManager.add('example', tinymce.plugins.ExamplePlugin);
+	tinymce.PluginManager.add('luminis', tinymce.plugins.LuminisPlugin);
 })();
