@@ -27,11 +27,11 @@
 				ed.execCommand('mcInsertContent', false, 'Luminis')
 			});
 
-			// Register example button
-			ed.addButton('example', {
-				title : 'example.desc',
-				cmd : 'mceExample',
-				image : url + '/img/example.gif'
+			// Register Luminis button
+			ed.addButton('Luminis', {
+				title : 'Luminis.desc',
+				cmd : 'mceLuminis',
+				image : url + '/img/Luminis.gif'
 			});
 
 			// Add a node change handler, selects the button in the UI when a image is selected

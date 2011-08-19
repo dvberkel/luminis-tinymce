@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.example',{
-	desc : 'This is just a template button'
+tinyMCE.addI18n('en.Luminis',{
+	desc : 'This will add the name Luminis tot the editor'
 });
