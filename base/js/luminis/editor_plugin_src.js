@@ -36,7 +36,7 @@
 
 			// Add a node change handler, selects the button in the UI when a image is selected
 			ed.onNodeChange.add(function(ed, cm, n) {
-				cm.setActive('example', n.nodeName == 'IMG');
+				cm.setActive('Luminis', n.nodeName == 'IMG');
 			});
 		},
 
@@ -62,10 +62,10 @@
 		 */
 		getInfo : function() {
 			return {
-				longname : 'Example plugin',
-				author : 'Some author',
-				authorurl : 'http://tinymce.moxiecode.com',
-				infourl : 'http://wiki.moxiecode.com/index.php/TinyMCE:Plugins/example',
+				longname : 'Luminis plugin',
+				author : 'Daan van Berkel',
+				authorurl : 'https://plus.google.com/108584095805663942814/about',
+				infourl : 'http://www.luminis.nl/',
 				version : "1.0"
 			};
 		}
